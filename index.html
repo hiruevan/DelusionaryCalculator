@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="description" src = '' content="" >
+    <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Samuel Smoot,Evan Hill,Jackson Cummins,Jason Pratt">
+    <meta name="author" content="Samuel Smoot, Evan Hill, Jackson Cummins, Jason Pratt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
     <title>The Delusional Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="frontend.js"></script>
-  </head>
-  <body>
+    <script src="js/backend.js"></script>
+
+</head>
+<body>
+    <h1 id ="display"></h1>
     <table>
-      <tr>
-        <td><button>_</button></td>
-        <td><button>_</button></td>
-        <td><button>/</button></td>
-        <td><button>*</button></td>
-      </tr>
-      <tr>
-       <td><button>7</button></td>
-       <td><button>8</button></td>
-       <td><button>9</button></td>
-       <td><button>-</button></td>
-      </tr>
-      <tr>
-        <td><button>4</button></td>
-        <td><button>5</button></td>
-        <td><button>6</button></td>
-        <td><button>+</button></td>
-       </tr>
-       <tr>
-        <td><button>1</button></td>
-        <td><button>2</button></td>
-        <td><button>3</button></td>
-        <td><button>0</button></td>
-       </tr>
-       
-     
+        <tr>
+            <td><button onclick="clearDisplay()">C</button></td>
+            <td><button onclick="appendToDisplay('*')">*</button></td>
+            <td><button onclick="appendToDisplay('/')">/</button></td>
+            <td><button onclick="calculate()">=</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendToDisplay('7')">7</button></td>
+            <td><button onclick="appendToDisplay('8')">8</button></td>
+            <td><button onclick="appendToDisplay('9')">9</button></td>
+            <td><button onclick="appendToDisplay('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendToDisplay('4')">4</button></td>
+            <td><button onclick="appendToDisplay('5')">5</button></td>
+            <td><button onclick="appendToDisplay('6')">6</button></td>
+            <td><button onclick="appendToDisplay('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendToDisplay('1')">1</button></td>
+            <td><button onclick="appendToDisplay('2')">2</button></td>
+            <td><button onclick="appendToDisplay('3')">3</button></td>
+            <td><button onclick="appendToDisplay('0')">0</button></td>
+        </tr>
     </table>
 
-    <div style="height: 850px;"></div>
-  </body>
+</body>
 </html>
