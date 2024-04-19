@@ -1,6 +1,8 @@
-
+body {
+    text-align: center;
+}
 
 table {
     border:0px;
-
+    margin: auto;
 }
