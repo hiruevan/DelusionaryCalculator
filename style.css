@@ -6,8 +6,11 @@ body {
 table {
     border: 0;
     margin: auto;
+    padding: 20px;
     width: max-content;
     height:max-content ;
+    border-radius: 10%;
+    background-color: #0a0e29;
 }
 
 button {
@@ -19,8 +22,8 @@ button {
     border-radius: 1.5rem;
     transition: filter 0.25s;
     color: #0021ff;
-    border: 4px solid #0021ff;
-    filter: drop-shadow(0 0 0.125em #3d56fc) drop-shadow(0 0 10px #5f74ff);
+    border: 4px solid #0a325f;
+    filter: drop-shadow(0 0 0.125em #2845ff) drop-shadow(0 0 10px #0e2eff);
 }
 
 h1 {
@@ -44,5 +47,11 @@ h1 {
     filter: blur(0px);
     transform: translateX(0%);
     opacity: 1;
+
+}
+
+
+h6 {
+    color: skyblue;
 
 }
