@@ -1,7 +1,7 @@
 
 /*html related css (not classes or id's)*/
 
-:root {
+body {
     text-align: center;
     background-image: linear-gradient(to right,#123456,#000000);
 
