@@ -9,3 +9,19 @@ table {
     width: max-content;
     height:max-content ;
 }
+
+
+/*the js hiding/showing in the frontend */
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    transition-delay: 0;
+}
+.show {
+    filter: blur(0px);
+    transform: translateX(0%);
+    opacity: 1;
+
+}
