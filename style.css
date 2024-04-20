@@ -43,6 +43,14 @@ button:hover {
 }
 
 h1 {
+    font-size: 45px;
+    font-family: monospace;
+    transition: filter 0.25s;
+    filter: drop-shadow(0 0 0.125em #3d56fc) drop-shadow(0 0 10px #5f74ff);
+    color: white;
+}
+
+h2 {
     font-size: 30px;
     font-family: monospace;
     transition: filter 0.25s;
@@ -58,11 +66,6 @@ h6 {
     color: white;
 
 }
-
-#display {
-    font-size: 45px;
-}
-
 
 
 
