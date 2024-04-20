@@ -25,7 +25,7 @@ button {
     background: rgb(5, 0, 31);
     border-radius: 1.5rem;
    
-    transition: all 0.5;
+    transition: all 0.5s;
 
     color: skyblue;
     border: 4px solid #0c003f;
