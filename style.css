@@ -1,3 +1,6 @@
+
+/*html related css (not classes or id's)*/
+
 body {
     text-align: center;
     background-image: linear-gradient(#123456,#000000);
@@ -41,6 +44,17 @@ h1 {
     color: white;
 }
 
+h6 {
+    color: skyblue;
+
+}
+
+
+
+
+
+
+
 
 /*the js hiding/showing in the frontend */
 .hidden {
@@ -54,12 +68,6 @@ h1 {
     filter: blur(0px);
     transform: translateX(0%);
     opacity: 1;
-
-}
-
-
-h6 {
-    color: skyblue;
 
 }
 
