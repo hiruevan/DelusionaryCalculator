@@ -16,6 +16,8 @@ table {
     height:max-content ;
     border-radius: 10%;
     background-color: #0a0e29;
+    filter: drop-shadow(0 0 0.125em #3d56fc) drop-shadow(0 0 10px #5f74ff);
+
 }
 
 button {
@@ -49,7 +51,11 @@ h1 {
 }
 
 h6 {
-    color: skyblue;
+    font-size: 15px;
+    font-family: monospace;
+    transition: filter 0.25s;
+    filter: drop-shadow(0 0 0.025em #3d56fc) drop-shadow(0 0 2px #5f74ff);
+    color: white;
 
 }
 
