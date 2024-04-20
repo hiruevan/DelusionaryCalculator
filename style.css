@@ -1,6 +1,9 @@
 
 /*html related css (not classes or id's)*/
-
+@font-face {
+    font-family: 'alien'; /*this font only has custom capital letters*/
+    src: url('assets/alien.ttf'); 
+}
 body {
     text-align: center;
     background-image: linear-gradient(to right,#123456,#000000);
@@ -64,6 +67,7 @@ h6 {
     transition: filter 0.25s;
     filter: drop-shadow(0 0 0.025em #3d56fc) drop-shadow(0 0 2px #5f74ff);
     color: white;
+    
 
 }
 
