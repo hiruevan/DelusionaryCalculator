@@ -22,12 +22,14 @@ button {
     margin: 10px;
     font-size: 40px;
     font-family: monospace;
-    background: white;
+    background: rgb(5, 0, 31);
     border-radius: 1.5rem;
-    transition: all 0.25s;
-    color: #0021ff;
-    border: 4px solid #0a325f;
-    filter: drop-shadow(0 0 0.125em #2845ff) drop-shadow(0 0 10px #0e2eff);
+   
+    transition: all 0.5;
+
+    color: skyblue;
+    border: 4px solid #0c003f;
+    filter: drop-shadow(0 0 0.125em #0c1a77) drop-shadow(0 0 10px #0c1b80);
 }
 
 button:hover {
