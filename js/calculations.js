@@ -46,7 +46,7 @@ function calculate() {
         result = eval(document.getElementById('display').innerHTML);
         document.getElementById('display').innerHTML = result;
     } catch (error) {
-        document.getElementById('display').innerHTML = 'Error';
+        document.getElementById('display').innerHTML = error;
     }
 }
 
