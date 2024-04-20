@@ -9,9 +9,14 @@ function appendToDisplay(value) {
     document.getElementById('display').innerHTML += value;
 }
 function removeLastLetter() {
+    
     currentDisplayText = document.getElementById('display').innerHTML
     currentDisplayText = currentDisplayText.replace(/.$/, '')
     document.getElementById('display').innerHTML = currentDisplayText
+    if (currentDisplayText == '<br' || currentDisplayText == '') {
+        document.getElementById('display').innerHTML = '<br>'
+    }
+
 }
 
 // Function to clear the display
