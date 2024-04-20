@@ -36,7 +36,7 @@ button:hover {
     width: 120px;
     height: 120px;
     margin:0;
-    transition: all 0s;
+    transition: all 0.1s;
 
 }
 
