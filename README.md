@@ -9,7 +9,7 @@ In addition, we also wish to include as many easter egg inside jokes from our ad
 
 by:
 
-Samuel Smoot site:https://quasarorb.github.io/SamsSite
+Samuel Smoot (site:https://quasarorb.github.io/SamsSite)
 
 Evan Hill
 
