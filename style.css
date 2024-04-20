@@ -1,9 +1,11 @@
 
 /*html related css (not classes or id's)*/
 
-body {
+:root {
     text-align: center;
-    background-image: linear-gradient(#123456,#000000);
+    background-image: linear-gradient(to right,#123456,#000000);
+
+    background-color: #000000;
 }
 
 table {
@@ -22,13 +24,11 @@ button {
     margin: 10px;
     font-size: 40px;
     font-family: monospace;
-    background: rgb(5, 0, 31);
     border-radius: 1.5rem;
-   
-    
+    background-image: linear-gradient(to right, rgb(33, 5, 82) , rgb(6, 0, 32));
+    border: 0px;
     transition: all 0.25s;
     color: skyblue;
-    border: 4px solid #0c003f;
     filter: drop-shadow(0 0 0.125em #0c1a77) drop-shadow(0 0 10px #0c1b80);
 }
 
@@ -74,4 +74,5 @@ h6 {
     opacity: 1;
 
 }
+
 
