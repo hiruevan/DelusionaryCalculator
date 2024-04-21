@@ -75,10 +75,32 @@ h6 {
     
 
 }
+form {
+    visibility: hidden;
+}
 
 
 
 
+
+
+
+
+/*
+
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 750px;
+    
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-color: #123456;
+}
+
+*/
 
 
 
@@ -122,3 +144,7 @@ h6 {
 
     }
    }
+
+
+
+
