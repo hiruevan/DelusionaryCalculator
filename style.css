@@ -28,7 +28,7 @@ button {
     height: 100px;
     margin: 10px;
     font-size: 40px;
-    font-family: monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 1.5rem;
     background-image: linear-gradient(to right, rgb(33, 5, 82) , rgb(6, 0, 32));
     border: 0px;
